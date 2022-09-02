@@ -1,0 +1,10 @@
+For creating virtual environment:
+    python -m virtualenv venv -p=<C:/path/to/python/version3.x.x/python.exe>
+For reaching virtual environment:
+    ./venv/Scripts/activate.ps1
+For leaving virtual environment:
+    deactivate 
+
+Changes:
+    import hmac
+    if user and hmac.compare_digest(user.password, password)
